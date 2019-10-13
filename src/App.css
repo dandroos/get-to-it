@@ -1,22 +1,24 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  font-family: 'ubuntu';
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
+body{
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  background: #fffef9
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width: 500px){
+  html{
+    font-size: 13px;
+  }
 }
 
-.App-link {
-  color: #09d3ac;
+@media(max-width: 400px){
+  html{
+    font-size: 12px;
+  }
 }

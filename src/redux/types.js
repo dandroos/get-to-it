@@ -1,0 +1,4 @@
+export const UPDATE_CLOCK = 'UPDATE_CLOCK'
+export const ADD_TODO = 'ADD_TODO'
+export const REMOVE_TODO = 'REMOVE_TODO'
+export const TOGGLE_COMPLETED_TODO = 'TOGGLE_COMPLETED_TODO'
